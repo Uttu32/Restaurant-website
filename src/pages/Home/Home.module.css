@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Roboto&display=swap');
+
+.home{
+    background-image: url("https://images.pling.com/img/00/00/61/29/82/1548282/659f9a67c56c0cc7b34f7671e5ad72608aeed9a1eebbdc2b2ba6ab075c38b03915d6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    background-position: center;
+}
+
+.headerContainer{
+    width: auto;
+    margin-left: 30px;
+}
+
+.headerContainer>h1{
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    color: #5B8282;
+    font-size: 70px;
+    font-family: 'Heebo', sans-serif;
+}
+
+.headerContainer>p{
+    margin-top: -40px;
+    padding: 0;
+    font-size: 40px;
+    font-weight: 200;
+    color: rgba(0, 0, 0, 0.72);
+    font-family: italic;
+}
+
+.headerContainer button{
+    background-color: rgb(94, 94, 200);
+    margin-top: -10px;
+    border: none;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    font-weight: 700;
+    height: 50px;
+    width: 180px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.headerContainer button:hover{
+    background-color: #07090a;
+    cursor: pointer;
+    color: white;
+    transition: 0.6s ease-in-out;
+}
+
+/* Mobile view */
+
+@media only screen and (max-width: 600px) {
+    .home{
+        justify-content: center;
+        align-items: center;   
+    }
+    .headerContainer{
+        margin-left: 0;
+        border-radius: 10px;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #121619;
+        color: white;
+    }
+    .headerContainer>h1{
+        font-size: 40px;
+        height: 30px;
+        margin: 15px 0px;
+        color: white;
+    }
+    .headerContainer>p{
+        margin: 30px 0px;
+        font-size: 30px;
+        color: white;
+    }
+
+    .headerContainer button{
+        background-color: white;
+        color: #121619;
+        margin: 10px 0px;
+        margin-bottom: 30px; 
+    }
+}

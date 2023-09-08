@@ -1,0 +1,33 @@
+.image{
+    width: 18rem;
+    height: 18rem;
+    margin: 20px;
+    padding: 10px;
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+
+.image:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(10px 10px 10px #121619);
+}
+
+.LazyLoading{
+    height:95vh;
+    margin: auto;
+    color: blue;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LazyLoading>button{
+    border: none;
+    width: 50rem;
+    height: 25rem;
+    font-size: 10rem;
+    color: goldenrod;
+    background-color: rgba(41, 36, 36, 0.749);
+    border-radius: 50px;
+}
